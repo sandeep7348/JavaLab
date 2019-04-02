@@ -6,9 +6,11 @@ public class Checkerror {
 		try
 		{
 			
-			RandomAccessFile ob=new RandomAccessFile("C:/Users/500064341/Documents/reflection4.txt","r");
+			RandomAccessFile raf=
+					new RandomAccessFile("C:/Users/500064341/Documents/reflection4.txt","r");
 			byte b[]=new byte[10];
-            ob.readFully(b, 0, 10);
+            raf.readFully(b, 0, 10);
+            raf.close();
 			
 		}
 		catch(FileNotFoundException e)
