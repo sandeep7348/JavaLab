@@ -5,6 +5,15 @@ public class To_TestInt extends Arithmetic {
 	{
 		Arithmetic c=new Arithmetic();
 		c.square();
+		Test_interface d=new Test_interface() {
+
+			@Override
+			public void square() {
+				// TODO Auto-generated method stub
+				
+			}
+			
+		};
 		
 	}
 
